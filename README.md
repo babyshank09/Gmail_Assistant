@@ -28,8 +28,8 @@ This application allows users to interact with their Gmail account programmatica
     ```
 
 ## Setup
-1. Obtain Gmail API credentials by following [this guide](https://developers.google.com/gmail/api/quickstart/python).
-2. Upload the Gmail API credentials after running the application.
+1. Obtain OAuth consent screen credentials by following [this guide](https://developers.google.com/gmail/api/quickstart/python).
+2. Upload the OAuth consent screen credentials after running the application.
 
 ## Usage
 1. Run the application:
