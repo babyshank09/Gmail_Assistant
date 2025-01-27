@@ -18,11 +18,8 @@ This application allows users to interact with their Gmail account programmatica
     ```bash
     git clone https://github.com/yourusername/gmail_application.git
     ```
-2. Navigate to the project directory:
-    ```bash
-    cd gmail_application
-    ```
-3. Install the required dependencies:
+    
+2. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
@@ -34,7 +31,7 @@ This application allows users to interact with their Gmail account programmatica
 ## Usage
 1. Run the application:
     ```bash
-    python main.py
+    python -m streamlit run gmail_application.py
     ```
 2. Follow the on-screen instructions to authenticate and use the application.
 
