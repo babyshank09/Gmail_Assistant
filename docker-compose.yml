@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    image: gmail_assistant
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
